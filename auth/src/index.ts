@@ -9,6 +9,7 @@ const checkEnvVariablesDefined = async() => {
 }
 
 const startDB = async() => {
+    console.log('Starting Up....')
 
     await checkEnvVariablesDefined();
 

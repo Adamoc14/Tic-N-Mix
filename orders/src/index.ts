@@ -18,6 +18,9 @@ const checkEnvVariablesDefined = async() => {
 
 const startDB = async() => {
 
+    // TODO: Remove this
+    console.log("Starting up....")
+
     await checkEnvVariablesDefined();
 
     try {

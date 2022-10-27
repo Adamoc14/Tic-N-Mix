@@ -1,7 +1,6 @@
 
 // Imports and Package Declarations
 import express from 'express';
-import 'express-async-errors'
 import currentUserRouter from './routes/current-user';
 import signInRouter from './routes/sign-in'
 import signOutRouter from './routes/sign-out'
@@ -18,7 +17,8 @@ app.use(express.json());
 app.use(
     cookieSession({
         signed: false,
-        secure: process.env.NODE_ENV !== 'test'
+        secure: false
+        // secure: process.env.NODE_ENV !== 'test'
     })
 )
 

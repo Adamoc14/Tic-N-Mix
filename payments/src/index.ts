@@ -17,6 +17,9 @@ const checkEnvVariablesDefined = async() => {
 
 const startDB = async() => {
 
+    // TODO: Remove this
+    console.log('Starting Up Payments Service.....')
+
     await checkEnvVariablesDefined();
 
     try {

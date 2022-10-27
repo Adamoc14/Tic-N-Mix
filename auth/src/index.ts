@@ -9,7 +9,7 @@ const checkEnvVariablesDefined = async() => {
 }
 
 const startDB = async() => {
-    console.log('Starting Up Auth Service....')
+    console.log('Starting Up Auth Service.....')
 
     await checkEnvVariablesDefined();
 

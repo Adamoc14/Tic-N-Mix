@@ -21,7 +21,7 @@ const startDB = async() => {
             process.env.NATS_CLIENT_ID!,
             process.env.NATS_URL!
         )
-        console.log('Connected to Nats successfully')
+        console.log('Connected to Nats successfully!')
         
         // Listen for close of service
         process.on('SIGINT', () => natsWrapper.client.close())

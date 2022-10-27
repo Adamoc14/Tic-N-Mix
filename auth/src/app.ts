@@ -1,7 +1,6 @@
 
 // Imports and Package Declarations
 import express from 'express';
-import 'express-async-errors'
 import currentUserRouter from './routes/current-user';
 import signInRouter from './routes/sign-in'
 import signOutRouter from './routes/sign-out'
